@@ -1,4 +1,3 @@
-// API?
 const stats = {
     membersOnline: 7,
     membersCap:    32,
@@ -108,7 +107,7 @@ if (flywheel) {
     flywheel.addEventListener('pointercancel', flRelease);
 }
 
-// --- Machines ---f
+// --- Machines ---
 
 const CANVAS_W  = 550;
 const CANVAS_H  = 400;
