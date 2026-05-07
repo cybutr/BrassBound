@@ -1,36 +1,36 @@
 const players = [
-    { name: 'Not_Giulix',       cogs: 500, blocks: 96000, hours: 480 },
-    { name: 'JeSuis_Roux',      cogs: 472, blocks: 92000, hours: 462 },
-    { name: 'Heliosoma',        cogs: 451, blocks: 88000, hours: 441 },
-    { name: 'mrcreepson',       cogs: 430, blocks: 84000, hours: 420 },
-    { name: 'Verygood_chicken', cogs: 398, blocks: 78000, hours: 389 },
-    { name: 'Ponther_',         cogs: 377, blocks: 74000, hours: 368 },
-    { name: 'Yolifa',           cogs: 355, blocks: 70000, hours: 350 },
-    { name: 'BobIsVryBord',     cogs: 332, blocks: 65000, hours: 326 },
-    { name: 'RicLionheart',     cogs: 308, blocks: 61000, hours: 307 },
-    { name: 'splads',           cogs: 284, blocks: 56000, hours: 286 },
-    { name: 'BobiLikesSnow',    cogs: 261, blocks: 52000, hours: 261 },
-    { name: 'KindaWierd',       cogs: 239, blocks: 47000, hours: 238 },
-    { name: 'RastaMeta',        cogs: 230, blocks: 46000, hours: 225 },
-    { name: 'Magmaticpage',     cogs: 220, blocks: 44000, hours: 218 },
-    { name: 'Kiekie525',        cogs: 218, blocks: 43500, hours: 216 },
-    { name: 'Mochadepreso',     cogs: 217, blocks: 43200, hours: 215 },
-    { name: 'Wysmac',           cogs: 215, blocks: 41000, hours: 212 },
-    { name: 'beacyn',           cogs: 213, blocks: 40500, hours: 210 },
-    { name: 'SoviettCatt',      cogs: 210, blocks: 43000, hours: 214 },
-    { name: 'Yi_studio',        cogs: 205, blocks: 40000, hours: 200 },
-    { name: 'UnpricedMoth',     cogs: 200, blocks: 39000, hours: 195 },
-    { name: 'Mardaxus',         cogs: 193, blocks: 38000, hours: 191 },
-    { name: '_mon0lith_',       cogs: 190, blocks: 37500, hours: 188 },
-    { name: 'Ingene',           cogs: 185, blocks: 36000, hours: 182 },
-    { name: 'vgregory73',       cogs: 180, blocks: 35500, hours: 178 },
-    { name: 'Chokoretro',       cogs: 178, blocks: 35000, hours: 175 },
-    { name: '12hotroom',        cogs: 175, blocks: 34500, hours: 172 },
-    { name: 't1g37',            cogs: 173, blocks: 34200, hours: 170 },
-    { name: 'ocllyn',           cogs: 171, blocks: 34000, hours: 169 },
-    { name: 'Breadmanguy1',     cogs: 165, blocks: 33000, hours: 164 },
-    { name: 'Aidtilop',         cogs: 160, blocks: 32000, hours: 158 },
-    { name: 'Eviquel',          cogs: 149, blocks: 30000, hours: 148 },
+    { name: 'Not_Giulix',       cogs: 305, blocks: 78124, hours: 420 },
+    { name: 'JeSuis_Roux',      cogs: 520, blocks: 96387, hours: 312 },
+    { name: 'Heliosoma',        cogs: 350, blocks: 84210, hours: 480 },
+    { name: 'mrcreepson',       cogs: 480, blocks: 88941, hours: 441 },
+    { name: 'Verygood_chicken', cogs: 210, blocks: 70332, hours: 198 },
+    { name: 'Ponther_',         cogs: 410, blocks: 92506, hours: 389 },
+    { name: 'Yolifa',           cogs: 500, blocks: 65192, hours: 209 },
+    { name: 'BobIsVryBord',     cogs: 275, blocks: 74203, hours: 326 },
+    { name: 'RicLionheart',     cogs: 440, blocks: 61287, hours: 307 },
+    { name: 'splads',           cogs: 120, blocks: 56880, hours: 286 },
+    { name: 'BobiLikesSnow',    cogs: 390, blocks: 52745, hours: 261 },
+    { name: 'KindaWierd',       cogs: 290, blocks: 47816, hours: 238 },
+    { name: 'RastaMeta',        cogs: 240, blocks: 46311, hours: 225 },
+    { name: 'Magmaticpage',     cogs: 380, blocks: 44702, hours: 218 },
+    { name: 'Kiekie525',        cogs: 150, blocks: 43659, hours: 216 },
+    { name: 'Mochadepreso',     cogs: 210, blocks: 43287, hours: 215 },
+    { name: 'Wysmac',           cogs: 330, blocks: 41163, hours: 212 },
+    { name: 'beacyn',           cogs: 410, blocks: 40988, hours: 214 },
+    { name: 'SoviettCatt',      cogs: 175, blocks: 43104, hours: 210 },
+    { name: 'Yi_studio',        cogs: 260, blocks: 40444, hours: 205 },
+    { name: 'UnpricedMoth',     cogs: 205, blocks: 39571, hours: 195 },
+    { name: 'Mardaxus',         cogs: 315, blocks: 38192, hours: 191 },
+    { name: '_mon0lith_',       cogs: 190, blocks: 37780, hours: 188 },
+    { name: 'Ingene',           cogs: 240, blocks: 36234, hours: 182 },
+    { name: 'vgregory73',       cogs: 205, blocks: 35681, hours: 180 },
+    { name: 'Chokoretro',       cogs: 330, blocks: 35266, hours: 175 },
+    { name: '12hotroom',        cogs: 170, blocks: 34789, hours: 172 },
+    { name: 't1g37',            cogs: 280, blocks: 34395, hours: 170 },
+    { name: 'ocllyn',           cogs: 360, blocks: 34122, hours: 169 },
+    { name: 'Breadmanguy1',     cogs: 100, blocks: 33347, hours: 305 },
+    { name: 'Aidtilop',         cogs: 450, blocks: 32386, hours: 134 },
+    { name: 'Eviquel',          cogs: 155, blocks: 30194, hours: 212 },
 ];
 
 const categories = [
@@ -47,6 +47,11 @@ function fmt(n) {
     if (n >= 1000000) return (n / 1000000).toFixed(1).replace(/\.0$/, '') + 'm';
     if (n >= 1000)    return Math.floor(n / 1000) + 'k';
     return String(n);
+}
+
+function formatMetric(key, n) {
+    if (key === 'blocks') return Number(n).toLocaleString('en-US');
+    return fmt(n);
 }
 
 function avatar(name) {
@@ -66,12 +71,13 @@ const rankClass = i => i === 0 ? 'rank-gold' : i === 1 ? 'rank-silver' : i === 2
 function animateScores(list) {
     list.querySelectorAll('[data-val]').forEach(el => {
         const target = +el.dataset.val;
+        const key = el.dataset.key || 'cogs';
         const start  = performance.now();
         const dur    = 700;
         const tick   = now => {
             const t = Math.min((now - start) / dur, 1);
             const e = 1 - Math.pow(1 - t, 4);
-            el.textContent = fmt(Math.round(e * target));
+            el.textContent = formatMetric(key, Math.round(e * target));
             if (t < 1) requestAnimationFrame(tick);
         };
         requestAnimationFrame(tick);
@@ -85,10 +91,19 @@ function initLeaderboard(container, isSidebar = false) {
 
     let activeKey = 'cogs';
 
-    const render = async () => {
+    const render = async (animate = false) => {
         const data = await loadLeaderboard();
         const items = sorted(data, activeKey);
-        
+
+        if (animate && list.children.length > 0) {
+            [...list.children].forEach(el => {
+                el.style.transition = 'opacity 0.1s ease, transform 0.1s ease';
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(-5px)';
+            });
+            await new Promise(r => setTimeout(r, 120));
+        }
+
         list.innerHTML = items.map((p, i) => {
             const val = p[activeKey];
             const cat = categories.find(c => c.key === activeKey);
@@ -101,7 +116,7 @@ function initLeaderboard(container, isSidebar = false) {
                         <div class="lb-avatar" style="background-image:url(${avatar(p.name)})"></div>
                         <span class="lb-name">${p.name}</span>
                         <div class="lb-score">
-                            <span data-val="${val}">${fmt(val)}</span>
+                            <span data-key="${activeKey}" data-val="${val}">${formatMetric(activeKey, val)}</span>
                             ${cat.unit}
                         </div>
                     </li>
@@ -113,7 +128,7 @@ function initLeaderboard(container, isSidebar = false) {
                         <div class="lb-avatar-full" style="background-image:url(${avatar(p.name)})"></div>
                         <span class="lb-name-full">${p.name}</span>
                         <div class="lb-score-full">
-                            <span data-val="${val}">${fmt(val)}</span>
+                            <span data-key="${activeKey}" data-val="${val}">${formatMetric(activeKey, val)}</span>
                             ${cat.unit}
                         </div>
                     </div>
@@ -122,6 +137,19 @@ function initLeaderboard(container, isSidebar = false) {
         }).join('');
 
         animateScores(list);
+
+        if (animate) {
+            [...list.children].forEach((el, i) => {
+                const delay = Math.min(i * 18, 180);
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(6px)';
+                requestAnimationFrame(() => requestAnimationFrame(() => {
+                    el.style.transition = `opacity 0.2s ease ${delay}ms, transform 0.2s ease ${delay}ms`;
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }));
+            });
+        }
 
         if (isSidebar) {
             list.querySelectorAll('.lb-item').forEach(el => {
@@ -144,7 +172,7 @@ function initLeaderboard(container, isSidebar = false) {
             tabs.querySelector('.active').classList.remove('active');
             btn.classList.add('active');
             activeKey = btn.dataset.key;
-            render();
+            render(true);
         });
     });
 
@@ -173,7 +201,7 @@ function showHoverCard(p, el) {
             </div>
             <div class="lhc-stat">
                 <span class="lhc-label">BLOCKS</span>
-                <span class="lhc-val">${fmt(p.blocks)}</span>
+                <span class="lhc-val">${formatMetric('blocks', p.blocks)}</span>
             </div>
             <div class="lhc-stat">
                 <span class="lhc-label">HOURS</span>
