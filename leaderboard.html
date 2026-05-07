@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Leaderboard — BrassBound</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/leaderboard.css" />
+</head>
+
+<body>
+    <div class="lb-page">
+        <a href="index.html" class="lb-back">
+            <svg viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            BACK TO DASHBOARD
+        </a>
+
+        <div class="lb-page-header">
+            <img src="assets/svgs/SVG-9.svg" alt="" />
+            <span class="lb-page-title">LEADERBOARD</span>
+        </div>
+
+        <div class="lb-full">
+            <div class="lb-header">
+                <img src="assets/svgs/SVG-9.svg" alt="" />
+                <span class="lb-title">TOP PLAYERS</span>
+                <div id="lbTabs" class="lb-tabs"></div>
+            </div>
+            <ul class="lb-list" style="list-style: none; margin: 0"></ul>
+            <div class="corner-tl"></div>
+            <div class="corner-br"></div>
+        </div>
+    </div>
+
+    <script src="js/leaderboard.js"></script>
+</body>
+
+</html>
