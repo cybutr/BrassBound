@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>BrassBound</title>
+    <link rel="icon" type="image/png" href="assets/images/flywheel1.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- mobile navbar -->
+    <div class="mob-navbar" id="mobNavbar">
+        <img class="mob-cog-l" src="assets/images/cogwheel1.png" alt="" aria-hidden="true" />
+        <img class="mob-cog-r" src="assets/images/large_cogwheel1.png" alt="" aria-hidden="true" />
+        <div class="mob-status">
+            <span class="status-dot"></span>
+            <span class="mob-status-label">ONLINE</span>
+        </div>
+        <button class="mob-hamburger" id="mobHamburger" aria-label="Toggle navigation" aria-expanded="false">
+            <svg viewBox="0 0 24 18" fill="none" aria-hidden="true">
+                <rect y="0"   width="24" height="2.5" rx="1.25" fill="var(--blueprint-blue)" />
+                <rect y="7.5" width="24" height="2.5" rx="1.25" fill="var(--blueprint-blue)" />
+                <rect y="15"  width="24" height="2.5" rx="1.25" fill="var(--blueprint-blue)" />
+            </svg>
+        </button>
+        <nav class="mob-nav" id="mobNavDrawer" aria-hidden="true">
+            <a href="#dashboard" class="mob-nav-item active">
+                <img src="assets/svgs/SVG-4.svg" alt="" />
+                <span>DASHBOARD</span>
+            </a>
+            <a href="leaderboard.html" class="mob-nav-item">
+                <img src="assets/svgs/SVG-9.svg" alt="" />
+                <span>LEADERBOARD</span>
+            </a>
+            <a href="#stats" class="mob-nav-item">
+                <img src="assets/svgs/SVG-7.svg" alt="" />
+                <span>STATS</span>
+            </a>
+            <a href="#gallery" class="mob-nav-item">
+                <img src="assets/svgs/SVG-8.svg" alt="" />
+                <span>GALLERY</span>
+            </a>
+            <a href="#" class="mob-nav-item">
+                <img src="assets/svgs/SVG-5.svg" alt="" />
+                <span>BLUEMAP</span>
+            </a>
+        </nav>
+        <div class="corner-tl"></div>
+        <div class="corner-br"></div>
+    </div>
+
+    <div class="page">
+        <div class="layout">
+
+            <!-- sidebar -->
+            <aside class="sidebar">
+
+                <div class="server-status">
+                    <img class="deco-flywheel" src="assets/images/flywheel1.png" alt="" aria-hidden="true" />
+                    <p class="section-label">SERVER STATUS</p>
+                    <div class="status-pill">
+                        <span class="status-dot"></span>
+                        <span class="status-text">ONLINE</span>
+                    </div>
+                    <div class="corner-tl"></div>
+                    <div class="corner-br"></div>
+                </div>
+
+                <img class="deco-tubes" src="assets/images/tubes.png" alt="" aria-hidden="true" />
+
+                <nav class="nav-panel">
+                    <a href="#dashboard" class="nav-item active">
+                        <img src="assets/svgs/SVG-4.svg" alt="" />
+                        <span>DASHBOARD</span>
+                    </a>
+                    <a href="#stats" class="nav-item">
+                        <img src="assets/svgs/SVG-7.svg" alt="" />
+                        <span>STATS</span>
+                    </a>
+                    <a href="#gallery" class="nav-item">
+                        <img src="assets/svgs/SVG-8.svg" alt="" />
+                        <span>GALLERY</span>
+                    </a>
+                    <a href="#" class="nav-item">
+                        <img src="assets/svgs/SVG-5.svg" alt="" />
+                        <span>BLUEMAP</span>
+                    </a>
+                    <div class="corner-tl"></div>
+                    <div class="corner-br"></div>
+                </nav>
+
+                <div class="leaderboard">
+                    <div class="lb-header">
+                        <img src="assets/svgs/SVG-9.svg" alt="" />
+                        <span class="lb-title">LEADERBOARD</span>
+                        <div id="lbTabsSidebar" class="lb-tabs"></div>
+                    </div>
+                    <ul class="lb-list"></ul>
+                    <div class="corner-tl"></div>
+                    <div class="corner-br"></div>
+                </div>
+
+            </aside>
+
+            <!-- main content -->
+            <main class="content">
+
+                <!-- hero -->
+                <section class="hero" id="dashboard">
+                    <div class="hero-bg"></div>
+                    <div class="hero-grad"></div>
+                    <div class="hero-inner">
+                        <p class="hero-subtitle">WHITELISTED SMP • S2</p>
+                        <img class="hero-logo" src="assets/images/title-png.png" alt="BrassBound" />
+                        <p class="hero-desc">
+                            A whitelisted SMP centered around the Create mod, offering an immersive experience with 
+                            complex machines, interactive physics contraptions, and moving airships powered by Valkyrien Skies 2.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="btn-ip" type="button"
+                                aria-label="Copy server IP">
+                                BRASSBOUND.MINE.FUN
+                            </button>
+                            <a href="#discord" class="btn-discord" aria-label="Join Discord">
+                                <img src="assets/svgs/discord.svg" alt="" aria-hidden="true" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="corner-tl inset"></div>
+                    <div class="corner-br inset"></div>
+                </section>
+
+                <!-- stat row -->
+                <section class="stat-row" id="stats">
+                    <article class="stat-card">
+                        <div class="stat-header">
+                            <img src="assets/svgs/SVG-9.svg" alt="" />
+                            <span class="stat-label">MEMBERS ONLINE</span>
+                        </div>
+                        <div class="stat-members">
+                            <span class="stat-value">7</span>
+                            <span class="stat-of">/ 32</span>
+                        </div>
+                        <span class="stat-sub">MAINTENANCE DISABLED</span>
+                        <div class="corner-tl"></div>
+                        <div class="corner-br"></div>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-header">
+                            <img src="assets/svgs/SVG-1.svg" alt="" />
+                            <span class="stat-label">WORLD AGE</span>
+                        </div>
+                        <span class="stat-value">482</span>
+                        <span class="stat-sub">IN-GAME DAYS</span>
+                        <div class="corner-tl"></div>
+                        <div class="corner-br"></div>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-header">
+                            <img src="assets/svgs/SVG-2.svg" alt="" />
+                            <span class="stat-label">ACTIVE TRAINS</span>
+                        </div>
+                        <span class="stat-value">14</span>
+                        <span class="stat-sub">NETWORKED ROUTES</span>
+                        <div class="corner-tl"></div>
+                        <div class="corner-br"></div>
+                    </article>
+                    <article class="stat-card">
+                        <div class="stat-header">
+                            <img src="assets/svgs/SVG-3.svg" alt="" />
+                            <span class="stat-label">UPTIME (30D)</span>
+                        </div>
+                        <span class="stat-value uptime">99.4%</span>
+                        <div class="uptime-bar" role="progressbar" aria-valuenow="99.4" aria-valuemin="0" aria-valuemax="100">
+                            <div class="uptime-fill"></div>
+                        </div>
+                        <div class="corner-tl"></div>
+                        <div class="corner-br"></div>
+                    </article>
+                </section>
+
+                <!-- mods section -->
+                <section class="mods-section">
+                    <div class="mods-glow"></div>
+                    <div class="mods-inner">
+                        <div class="machines">
+                            <div class="machine blazing">
+                                <div class="machine-glow blazing-glow"></div>
+                                <img src="assets/images/blaz.png" alt="Blazing machine" />
+                            </div>
+                            <div class="machine steel">
+                                <div class="machine-glow steel-glow"></div>
+                                <img src="assets/images/steel.png" alt="Steel machine" />
+                            </div>
+                            <div class="machine brass">
+                                <div class="machine-glow brass-glow"></div>
+                                <img src="assets/images/brass.png" alt="Brass machine" />
+                            </div>
+                            <div class="machine copper">
+                                <div class="machine-glow copper-glow"></div>
+                                <img src="assets/images/cop.png" alt="Copper machine" />
+                            </div>
+                            <div class="machine andesite">
+                                <div class="machine-glow andesite-glow"></div>
+                                <img src="assets/images/ande.png" alt="Andesite machine" />
+                            </div>
+                        </div>
+                        <div class="mods-text">
+                            <p class="mods-title">CUSTOM MODS N OVER 5500 LINES OF NEW OR TAILORED CONTENT</p>
+                            <div class="mods-bar"><div class="mods-bar-fill"></div></div>
+                            <p class="mods-desc">
+                                Season 2 improves on everything with sprawling landscapes and a reinvented endgame. 
+                                Featuring Create Northstar, CC: Tweaked, Tinker's Construct, and Numismatics. 
+                                We've added custom recipes and progression stages to ensure a tailored 
+                                experience for our community.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="corner-tl inset"></div>
+                    <div class="corner-br inset"></div>
+                </section>
+
+                <!-- mobile girder divider -->
+                <img class="mob-girder" src="assets/images/mobgirder.png" alt="" aria-hidden="true" />
+
+                <!-- gallery -->
+                <section class="gallery" id="gallery">
+                    <article class="gallery-item">
+                        <div class="gallery-photo photo-1"></div>
+                        <div class="gallery-vignette"></div>
+                    </article>
+                    <article class="gallery-item">
+                        <div class="gallery-photo photo-2"></div>
+                        <div class="gallery-vignette"></div>
+                    </article>
+                    <article class="gallery-item">
+                        <div class="gallery-photo photo-3"></div>
+                        <div class="gallery-vignette"></div>
+                    </article>
+                    <article class="gallery-item">
+                        <div class="gallery-photo photo-4"></div>
+                        <div class="gallery-vignette"></div>
+                    </article>
+                    <article class="gallery-item">
+                        <div class="gallery-photo photo-5"></div>
+                        <div class="gallery-vignette"></div>
+                    </article>
+                    <article class="gallery-item">
+                        <div class="gallery-photo photo-6"></div>
+                        <div class="gallery-vignette"></div>
+                    </article>
+                </section>
+
+            </main>
+
+            <!-- decoratives -->
+            <img class="deco-cog-large"    src="assets/images/large_cogwheel1.png" alt="" aria-hidden="true" />
+            <img class="deco-cog"          src="assets/images/cogwheel1.png"        alt="" aria-hidden="true" />
+            <img class="deco-girder"       src="assets/images/girder.png"           alt="" aria-hidden="true" />
+            <img class="deco-chain"        src="assets/images/chain.png"            alt="" aria-hidden="true" />
+            <img class="deco-upgrades"     src="assets/images/upgrades.png"         alt="" aria-hidden="true" />
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+        <div class="lightbox-stage">
+            <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+            <div class="corner-tl"></div>
+            <div class="corner-br"></div>
+            <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8592;</button>
+            <button class="lightbox-next" id="lightboxNext" aria-label="Next">&#8594;</button>
+            <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+            <span class="lightbox-counter" id="lightboxCounter">01 / 06</span>
+        </div>
+    </div>
+
+    <div class="copy-toast" id="copyToast" aria-live="polite" aria-atomic="true">
+        <div class="copy-toast-inner">
+            <svg class="copy-toast-icon" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <polyline points="2,8 6,12 14,4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>IP COPIED</span>
+        </div>
+        <div class="corner-tl"></div>
+        <div class="corner-br"></div>
+    </div>
+
+    <script src="js/leaderboard.js"></script>
+    <script src="js/physics.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+/* #region leaderboard */
+.lb-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 24px 16px 48px;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.lb-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--blueprint-blue);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: opacity 0.15s;
+}
+
+.lb-back:hover { opacity: 0.7; }
+
+.lb-back svg {
+    width: 16px;
+    height: 16px;
+}
+
+.lb-page-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 20px;
+    background-color: var(--black);
+    border-radius: 6px;
+    border: 1px solid var(--blueprint-blue);
+    box-shadow: 0px 8px 32px #00000066;
+}
+
+.lb-page-header img {
+    width: 20px;
+    height: 20px;
+}
+
+.lb-page-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--blueprint-blue);
+    letter-spacing: 2px;
+}
+
+.lb-full {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    border-radius: 6px;
+    border: 1px solid var(--blueprint-blue);
+    box-shadow: 0px 8px 32px #00000066;
+    position: relative;
+    overflow: hidden;
+}
+
+.lb-full .lb-list {
+    padding: 20px;
+    gap: 14px;
+    max-height: none;
+    overflow-y: visible;
+}
+
+.lb-item-full {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 16px;
+    background-color: #ffffff08;
+    border-radius: 4px;
+    border: 1px solid #7594f026;
+}
+
+.lb-rank-full {
+    width: 28px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--brass);
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.lb-avatar-full {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid var(--blueprint-blue);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(117, 148, 240, 0.1);
+    flex-shrink: 0;
+}
+
+.lb-name-full {
+    flex: 1;
+    min-width: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lb-score-full {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--brass);
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.lb-header { justify-content: space-between; }
+
+.lb-tabs {
+    display: flex;
+    gap: 6px;
+    margin-left: auto;
+    width: auto;
+    justify-content: flex-start;
+}
+
+.lb-tab {
+    padding: 4px 10px;
+    background: none;
+    border: 1px solid #7594f04c;
+    border-radius: 4px;
+    color: var(--blueprint-blue);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.lb-tab:hover { background: #7594f010; }
+
+.lb-tab.active {
+    background: #7594f01a;
+    border-color: var(--brass);
+    color: var(--white);
+}
+
+.lb-item-full.rank-gold   { border-color: #f1c23066; background-color: #f1c23010; }
+.lb-item-full.rank-silver { border-color: #9aafd466; background-color: #9aafd408; }
+.lb-item-full.rank-bronze { border-color: #cb5e2f66; background-color: #cb5e2f08; }
+
+.lb-item-full.rank-gold   .lb-rank-full { color: var(--brass); }
+.lb-item-full.rank-silver .lb-rank-full { color: #9aafd4; }
+.lb-item-full.rank-bronze .lb-rank-full { color: #cb5e2f; }
+
+.lb-score-full img {
+    width: 14px;
+    height: 14px;
+    filter: brightness(0) invert(67%) sepia(27%) saturate(1232%) hue-rotate(196deg) brightness(101%) contrast(93%);
+}
+/* #endregion */
